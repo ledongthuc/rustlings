@@ -1,4 +1,4 @@
-use std::{sync::Arc, sync::mpsc, thread, time::Duration};
+use std::{sync::mpsc, thread, time::Duration};
 
 struct Queue {
     first_half: Vec<u32>,
